@@ -1,0 +1,27 @@
+#compdef ssj
+
+# ============================================================
+# Super Saiyan Command - Tab Completion
+# ============================================================
+
+_ssj() {
+  local -a commands
+  commands=(
+    '1:Transform to Super Saiyan (SSJ1)'
+    '2:Transform to Super Saiyan 2 (SSJ2)'
+    '3:Transform to Super Saiyan 3 (SSJ3)'
+    '4:Transform to ULTRA INSTINCT! (8 seconds of INSANITY!)'
+    'ui:Transform to Ultra Instinct (same as 4)'
+    'ultimate:Transform to Ultra Instinct'
+    'mastered:Ultra Instinct Mastered'
+    'up:Level up one transformation'
+    'down:Power down one transformation'
+    'status:Show current transformation level'
+    'config:Edit configuration file'
+    'help:Show help message'
+  )
+
+  _describe 'ssj command' commands
+}
+
+_ssj "$@"
