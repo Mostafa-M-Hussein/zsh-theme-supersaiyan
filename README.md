@@ -44,8 +44,8 @@ When you transform to SSJ3:
 
 ```bash
 cd ~/
-git clone https://github.com/YOUR_USERNAME/supersaiyan-prompt.git
-cd supersaiyan-prompt
+git clone https://github.com/Mostafa-M-Hussein/zsh-theme-supermaiyan.git
+cd zsh-theme-supermaiyan
 ./install.sh
 ```
 
